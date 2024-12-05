@@ -22,7 +22,7 @@ target 'PDFDetect' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
-
+ 
   target 'PDFDetectTests' do
     inherit! :complete
     # Pods for testing
